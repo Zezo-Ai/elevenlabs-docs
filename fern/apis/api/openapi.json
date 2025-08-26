@@ -17804,10 +17804,16 @@
             "description": "The creation time of the agent in unix seconds",
             "type": "integer",
             "title": "Created At Unix Secs"
+          },
+          "updated_at_unix_secs": {
+            "description": "The last update time of the agent in unix seconds",
+            "type": "integer",
+            "title": "Updated At Unix Secs"
           }
         },
         "required": [
-          "created_at_unix_secs"
+          "created_at_unix_secs",
+          "updated_at_unix_secs"
         ],
         "title": "AgentMetadataResponseModel"
       },
